@@ -46,13 +46,16 @@ Note: please write one or two lines here describing your solution.
 */
 
 function makeComputer(type, color, weight) {
-  // TODO: Your code here
+ 
+
 }
 
+
+//=>
 // Write a function displayComputer that can be used to display one computer.
 
 function displayComputer(computer) {
-  // TODO: Your code here
+  
 }
 
 //=============================================================================
@@ -73,7 +76,7 @@ uppercaseAll(strArr); ==> [ 'HELLO', 'WORLD', 'WHIRLED', 'PEAS' ]
 */
 
 function uppercaseAll(arrayOfStrings) {
-  // TODO: your code here
+ 
 }
 
 //=============================================================================
@@ -112,8 +115,19 @@ var data = [
 ];
 
 function highestPopulation(arrayOfObjects) {
-  // TODO: your code here
+    var acc = [];
+
+  each(array, function(element, i) {
+    if (array(element, i)) {
+      acc.push(element[i] >i);
+    }
+  });
+ return arrayOfObjects;
 }
+
+
+//=> I should to filtred the data to take the highest Population
+
 
 //=============================================================================
 /*                              Q4                                           */
@@ -132,7 +146,7 @@ Note: please write one or two lines here describing your solution.
 */
 
 function halveAll(numbers) {
-  // your code is here
+ 
 }
 
 //=============================================================================
@@ -148,7 +162,6 @@ values({first : 5, second: 'something' , third : 129}) ==> [5, 'something', 129]
 Note: please write one or two lines here describing your solution.
 */
 function values(obj) {
-  // TODO: your code here
-}
+ }
 
 //Good Luck :))
